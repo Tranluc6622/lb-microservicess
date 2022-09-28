@@ -8,11 +8,17 @@
         <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <modules>
+        <module>lb-library-management</module>
+
+    </modules>
+    <packaging>pom</packaging>
     <groupId>com.elcom</groupId>
     <artifactId>lb-microservices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lb-microservices</name>
     <description>lb-microservices</description>
+
     <properties>
         <java.version>11</java.version>
     </properties>
